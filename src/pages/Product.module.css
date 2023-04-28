@@ -1,0 +1,64 @@
+.itemContainer{
+    background-color: rgb(11, 11, 44);
+    color: white;
+    padding-top: 30px;
+}
+
+.imgDescription{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.description{
+   margin-bottom: 40px;
+   margin-left: 40px;
+}
+
+.imgDescription > img{
+    width: 300px;
+    height: 300px;
+    margin: 0 40px;
+}
+
+.productDesc{
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.productPrice{
+    margin-bottom: 30px;
+}
+
+.productInfo > button{
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+.productInfo > .moveCart > button{
+    margin-right: 20px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+.productInfo > button:hover{
+    background-color: rgb(193, 149, 234);
+}
+
+.productInfo > .moveCart > button:hover{
+    background-color: rgb(193, 149, 234);    
+}
+
+.darkmode{
+    background-color: white;
+    color: black;
+}

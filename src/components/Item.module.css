@@ -1,0 +1,26 @@
+.itemContainer{
+    width: 100%;    
+    background-color: rgb(11, 11, 44);
+    padding: 10px 10px;
+    color: white;
+    
+}
+
+.darkmodecheck{
+    background-color: white;
+    color: black;
+}
+
+.itemContainer > h1{    
+    text-align: center;
+}
+
+.itemlist{       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+       
+    
+}
+

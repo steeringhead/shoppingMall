@@ -1,0 +1,65 @@
+.fragContainer{
+    width: 300px;
+    height: 500px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imgContainer{
+    width: 300px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.imgContainer > img{
+    width: 50%;
+    height: 50%;
+    transition: all 0.1s ease-in;
+    
+}
+
+.imgContainer > img:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+.infoContainer{
+    height: 40%;
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.darkmodecheck{
+    background-color: white;
+    color: black;
+    border: solid 1px navy;
+}
+
+
+.infoContainer > div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
